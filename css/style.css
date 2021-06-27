@@ -1,0 +1,90 @@
+body
+{
+	background-color: #DABCD5;
+	font-size: medium;
+}
+
+a:link, a:visited
+	{
+		background-color: #502E0B;
+		padding: 15px;
+		text-align: center;
+        color: white;
+		text-decoration: none;
+		font-family: verdana;
+		display: inline-block;
+	}
+
+a:hover
+	{
+		background-color: #8AAAB6;
+		color: #34044D;
+		font-family: Bebas Neue;
+	}
+
+a:active
+	{
+		color: white;
+		background-color: #9A86A0;
+		text-decoration: none;
+	}
+
+table, tr, td, th
+	{
+		border: 1px solid black;
+		border-collapse: collapse; 
+		padding: 5px;
+		width: 50%;
+		text-align: center;
+	}
+
+tr:nth-child(even)
+	{
+		background-color: #B9E5E9;
+	}
+
+tr:nth-child(odd)
+	{
+		background-color: #440D4A;
+		color: #f9e6ff;
+	}
+
+th
+	{
+		background-color: #b30059;
+	}
+
+tr:hover
+	{
+		background-color: #23C8B9;
+	}
+
+{
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+	.footer {
+  background-color:#8AA6B6;
+  color: white;
+  border: 0px #8AA6B6;
+  margin: 0.1px;
+  padding: 0.1px;
+}
+
+{
+  font-family: 'Patrick Hand', cursive;;
+}
+
